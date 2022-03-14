@@ -1,0 +1,44 @@
+.header-container-2 {
+  position: absolute;
+  padding: 0px 50px;
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 7px 7px #182334;
+}
+.header-container .logo,
+.header-container .navigation {
+  display: inline;
+}
+.navigation {
+  list-style: none;
+  position: relative;
+  right: 50px;
+  float: right;
+  top: 50px;
+}
+.navigation li {
+  display: inline;
+  color: aliceblue;
+  font-size: 17px;
+}
+.p {
+  padding-right: 50px;
+}
+@keyframes rotatefont {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.logo:hover {
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+}
