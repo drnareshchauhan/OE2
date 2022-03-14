@@ -5,7 +5,7 @@ const initialState = {
     newtestFormData:{
         testType:null,
         testTitle: '',
-        testDuration : 60,
+        testDuration : 20,
         OrganisationName:null,
         testSubject:[],
         testQuestions:[]
